@@ -3,9 +3,9 @@
     "gateway": "global.xirsys.net",
     "gatewayTimeout": 6000,
     "info": {
-      "ident": "< Your Account Ident >",
-      "secret": "< Your Account Secret >",
-      "channel": "< Your Account Channel Path >"
+      "ident": "nienluannganhct466",
+      "secret": "c42c9b92-fe90-11eb-acf5-0242ac150002",
+      "channel": "MyFirstApp"
     },
     "allowedServices": ["/_token", "/_host", "/_data", "/_ns", "/_turn"],
     "overrideAllowedChannel": false,

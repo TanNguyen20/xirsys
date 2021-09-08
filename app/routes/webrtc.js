@@ -10,7 +10,7 @@ function WebRtc(xirsys) {
   // check if method is defined in request
   router.use('/', function (req, res, next) {
     let uri = req.url.split('?').shift();
-    console.log(uri, req.params);
+    console.log("uri:" + uri,"\nparams: " + JSON.stringify(req.params));
     if (req.params.method == null && uri.length <= 1) {
       req.error = {
         "s": "error",
